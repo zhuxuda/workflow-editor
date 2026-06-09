@@ -1,0 +1,25 @@
+{
+  "name": "workflow-editor",
+  "version": "0.1.0",
+  "description": "A lightweight and extensible workflow editor based on Vue 3 and VueFlow",
+  "author": "zhuxuda",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd packages/editor && pnpm dev",
+    "build": "pnpm -r build",
+    "preview": "cd packages/editor && pnpm preview",
+    "lint": "eslint . --ext .js,.vue",
+    "format": "prettier --write '**/*.{js,vue,css,md}'"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "prettier": "^3.0.3"
+  },
+  "pnpm": {
+    "overrides": {}
+  }
+}
