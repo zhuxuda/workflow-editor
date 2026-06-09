@@ -1,0 +1,16 @@
+{
+  "name": "@workflow-editor/nodes",
+  "version": "0.1.0",
+  "description": "Built-in nodes for workflow editor",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@workflow-editor/core": "workspace:*"
+  }
+}
